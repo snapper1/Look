@@ -74,6 +74,7 @@
 	<section>
 	<div id="bottom">
 		<div id="blogo">Look</div>
+		
 		<div id="cinfo">
     	    <a href="#" class="infoa">회사 소개</a> &nbsp;&nbsp; &nbsp;&nbsp; 
        		<a href="#" class="infoa">개인정보취급방침</a> &nbsp;&nbsp; &nbsp;&nbsp; 
