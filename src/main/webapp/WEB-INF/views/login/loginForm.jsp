@@ -32,7 +32,16 @@
 	</div>
 <div id="loginMain">
 		<div  id="videologin">
-			<div id="loginbl"></div>
+			<div id="loginbl">
+				<tr><td>I      D : </td>
+    				<td><input type="text" name="id" id="id"><br> 
+    					<span id="iMessage" class="eMessage"></span></td>
+					</tr>
+				<tr><td>Password : </td>
+   			 		<td><input type="password" name="password" id="password"><br>
+   			 			<span id="pMessage" class="eMessage"></span></td>
+					</tr>
+			</div>
 			<video id="vlogin" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" >
      			<source src="resources/video/Graphic.webm" type="video/webm">
 			</video>

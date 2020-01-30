@@ -30,12 +30,12 @@ html, body {
 }
 #loginbl{
 	position:absolute; 
-	height:50%; 
-	width:50%;
+	height:60%; 
+	width:40%;
 	top: 50%;
-	left: 50%;
+	left: 25%;
 	transform: translate( -50%, -50% );
-	background: white;
-	opacity: 0.5;
-
+	background:white;
+	opacity: 0.85;
+	border-radius: 40px;
 }
