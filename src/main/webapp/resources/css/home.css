@@ -143,6 +143,22 @@ html, body {
 	font-size: 30vh;
 	color: gray;
 }
+#cinfo{
+	text-decoration: none;
+	position:absolute;
+	display:block;
+	bottom:13%;
+	left:50%;
+	transform: translate( -50%, -50% );
+	text-align:center;
+	font-size:2vh;
+	font-family:"³ª´®½ºÄù¾î¶ó¿îµå";
+	color: gray;
+}
+.infoa:link { color: white; text-decoration: none;}
+.infoa:visited { color: gray; text-decoration: none;}
+.infoa:hover { color: green; text-decoration: underline;}
+
 #copy{
 	position:absolute;
 	display:block;
