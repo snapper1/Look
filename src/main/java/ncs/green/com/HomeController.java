@@ -42,4 +42,9 @@ public class HomeController {
 		return mv;
 	}// loginf 
 	
+	@RequestMapping(value="/codi")
+	public ModelAndView codi(ModelAndView mv) {
+		mv.setViewName("/codi/codi");
+		return mv;
+	}
 }
