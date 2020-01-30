@@ -11,7 +11,7 @@ html, body {
 	width: auto;
 	height: 100vh;
 	position: relative;
-}
+} 
 #logo {
 	position: absolute;
 	top: 50%;
@@ -52,7 +52,7 @@ html, body {
 	text-align: center;
 	color: white;
 	text-decoration: none;
-	font-size:22px;
+	font-size:3.5vh;
 	font-family: "³ª´®¸íÁ¶"
 }
 #sub_menu{
@@ -67,7 +67,7 @@ html, body {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	font-size:20px;
+	font-size:3vh;
 	font-family: "³ª´®¸íÁ¶";
 }
 #main_menu > li:hover #sub_menu {
@@ -77,7 +77,6 @@ html, body {
 
 
 #videohome {
-     position: absolute;
      top: 0px;
      left: 0px;
      min-width: 100%;
@@ -85,9 +84,14 @@ html, body {
      width: auto;
      height: 100vh;
      z-index: -1000;
-     overflow: hidden;
      background-color: rgb(6,9,8);
+     overflow: hidden;
+} 
+#vhome{
+	height:auto;
+	width:100vw;
 }
+
 
 .box {
 	position:relative;
@@ -121,7 +125,7 @@ html, body {
 	width: auto;
 }
 .boximg{
-	height: 100vh;
+	height:100vh;
 	width: auto;
 	float: right;
 	z-index: 1;
@@ -147,9 +151,10 @@ html, body {
 	position:absolute;
 	display:block;
 	bottom:3%;
-	left:2%;
-	text-align:left;
-	font-size:2vh;
+	left:50%;
+	transform: translate( -50%, -50% );
+	text-align:center;
+	font-size:1.5vh;
 	font-family:"³ª´®½ºÄù¾î¶ó¿îµå";
 	color: gray;
 }

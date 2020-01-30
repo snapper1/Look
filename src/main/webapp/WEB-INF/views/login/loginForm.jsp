@@ -25,15 +25,16 @@
 					<li><a href="loginf">Login</a></li>
 					<li><a href="#">INFO</a></li>
 					<li><a href="#">Q & A</a></li>
-					<li><a href="home">+</a></li>
+					<li><a href="home">Home</a></li>
 				</ul>
 			</li>
 		</ul>
 	</div>
 <div id="loginMain">
 		<div  id="videologin">
-			<video preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" >
-     			<source src="resources/video/Rain.webm" type="video/webm">
+			<div id="loginbl"></div>
+			<video id="vlogin" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" >
+     			<source src="resources/video/Graphic.webm" type="video/webm">
 			</video>
 	</div>
 </div>

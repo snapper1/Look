@@ -27,7 +27,7 @@
 					<li><a href="loginf">Login</a></li>
 					<li><a href="#">INFO</a></li>
 					<li><a href="#">Q & A</a></li>
-					<li><a href="home">+</a></li>
+					<li><a href="home">Home</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -36,7 +36,7 @@
 	<section>
 	<div id="top" class="section">
 		<div  id="videohome">
-			<video preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" >
+			<video id="vhome" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" >
      		<source src="resources/video/Rain.webm" type="video/webm">
 			</video>
 		</div>

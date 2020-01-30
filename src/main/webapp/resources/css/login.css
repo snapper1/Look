@@ -8,13 +8,11 @@ html, body {
 	height: 100%;
 }
 #loginMain{
-	position: absolute;
 	background-color: black;
 	width: auto;
 	height: 100vh;
 }
 #videologin {
-     position: absolute;
      top: 0px;
      left: 0px;
      min-width: 100%;
@@ -22,6 +20,22 @@ html, body {
      width: auto;
      height: 100vh;
      z-index: -1000;
-     overflow: hidden;
      background-color: rgb(6,9,8);
+     overflow: hidden;
+} 
+#vlogin{
+	height:auto;
+	width:100vw;
+
+}
+#loginbl{
+	position:absolute; 
+	height:50%; 
+	width:50%;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	background: white;
+	opacity: 0.5;
+
 }
