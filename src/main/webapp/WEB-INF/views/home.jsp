@@ -74,6 +74,11 @@
 	<section>
 	<div id="bottom">
 		<div id="blogo">Look</div>
+		<div id="cinfo">
+    	    <a href="#" class="infoa">회사 소개</a> &nbsp;&nbsp; &nbsp;&nbsp; 
+       		<a href="#" class="infoa">개인정보취급방침</a> &nbsp;&nbsp; &nbsp;&nbsp; 
+        	<a href="#" class="infoa">약관</a>
+       	</div>
 		<div id="copy">
 		(주)Look &nbsp;&nbsp; 소재지 : 경기도 성남시 분당구 구미동 7-2 KR<br>
 		사업자등록번호 : 000-00-00000 &nbsp;&nbsp; 통신판매업 신고번호 : 제0000·경기성남·0000호<br>
