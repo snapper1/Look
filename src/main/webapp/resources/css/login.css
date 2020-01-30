@@ -12,3 +12,30 @@ html, body {
 	width: auto;
 	height: 100vh;
 }
+#videologin {
+     top: 0px;
+     left: 0px;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: 100vh;
+     z-index: -1000;
+     background-color: rgb(6,9,8);
+     overflow: hidden;
+} 
+#vlogin{
+	height:auto;
+	width:100vw;
+
+}
+#loginbl{
+	position:absolute; 
+	height:60%; 
+	width:40%;
+	top: 50%;
+	left: 25%;
+	transform: translate( -50%, -50% );
+	background:white;
+	opacity: 0.85;
+	border-radius: 40px;
+}
