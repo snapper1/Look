@@ -8,7 +8,20 @@ html, body {
 	height: 100%;
 }
 #loginMain{
+	position: absolute;
 	background-color: black;
 	width: auto;
 	height: 100vh;
+}
+#videologin {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: 100vh;
+     z-index: -1000;
+     overflow: hidden;
+     background-color: rgb(6,9,8);
 }

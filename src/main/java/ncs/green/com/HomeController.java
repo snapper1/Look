@@ -4,6 +4,8 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -41,5 +43,9 @@ public class HomeController {
 		mv.setViewName("login/loginForm");
 		return mv;
 	}// loginf 
-	
+	@RequestMapping(value = "/home")
+	public ModelAndView home(ModelAndView mv) {
+		mv.setViewName("home");
+		return mv;
+	} // home
 }
