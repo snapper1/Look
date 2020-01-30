@@ -43,6 +43,12 @@ public class HomeController {
 		mv.setViewName("login/loginForm");
 		return mv;
 	}// loginf 
+	
+	@RequestMapping(value="/codi")
+	public ModelAndView codi(ModelAndView mv) {
+		mv.setViewName("/codi/codi");
+		return mv;
+	}
 	@RequestMapping(value = "/home")
 	public ModelAndView home(ModelAndView mv) {
 		mv.setViewName("home");
