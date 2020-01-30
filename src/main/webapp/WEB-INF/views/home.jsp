@@ -24,7 +24,7 @@
 			<li><a href="#">What is Look.</a></li>
 			<li><a href="#">Account</a>
 				<ul id="sub_menu">
-					<li><a href="#">Login</a></li>
+					<li><a href="loginf">Login</a></li>
 					<li><a href="#">INFO</a></li>
 					<li><a href="#">Q & A</a></li>
 					<li><a href="#">+</a></li>

@@ -1,0 +1,14 @@
+@charset "EUC-KR";
+@charset "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#loginMain{
+	background-color: black;
+	width: auto;
+	height: 100vh;
+}
