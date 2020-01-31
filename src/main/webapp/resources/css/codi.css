@@ -68,13 +68,18 @@ body{background-color: black;}
 	margin-bottom:40px;
 }
 .login-div-button {
-   
+   padding-left:5%;
+   padding-right:5%;
+   padding-bottom:15%;
 }
 .login-button{
-	margin-left:90%;
+	margin-left:0;
 	background-color:black;
 	border:0;
-}
+	outline:0;
+}.login-button:hover{cursor:pointer;}
 path{
 	fill:#489CFF;
+	text-decoration:none;
 }
+.login-side-menu{display:none;}
