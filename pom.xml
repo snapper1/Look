@@ -115,6 +115,16 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
+		</dependency>    
+		
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.16.20</version>
+	</dependency>
+
+<!-- 최신버전  lombok --> 
 		</dependency>       
 		
 		<!-- 최신버전  lombok --> 
@@ -124,7 +134,7 @@
 		<version>1.18.2</version>
 		<scope>provided</scope>
 	</dependency>
-		 
+	
 	</dependencies>
     <build>
         <plugins>

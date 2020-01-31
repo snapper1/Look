@@ -30,16 +30,14 @@ html, body {
 	list-style-type: none;
 }
 #menu {
-<<<<<<< HEAD
-/* 	transition:.2s ease-in-out ; */
-=======
+
 	transition:.5s ease-in-out /*느렸다빨리짐*/;
-	transition:.5s ease-in-out /*느렸다빨리짐*/;
->>>>>>> 734579df37a604e005858a9a045f8c896b4083aa
-	position:fixed ;
+
+		
 	top:0;
 	width:100%;
-	height: 9vh;
+	height: 15vh;
+  	padding: 5vh 2vw;
   	display: flex;
   	justify-content: space-between;
   	z-index: 999;
@@ -50,39 +48,28 @@ html, body {
 }
 #main_menu > li > a{
 	display: block;
-	padding: 3vh 3vw 2vh 3vw;
+	padding: 12px 36px;
+	text-align: center;
 	color: white;
 	text-decoration: none;
-<<<<<<< HEAD
-	font-size:3vh;
-=======
 	font-size:3.5vh;
 
 	font-family: "나눔명조"
 
 	font-family: "�������";
 	z-index: 999;
-	font-size:2.5vh;
->>>>>>> 734579df37a604e005858a9a045f8c896b4083aa
-	font-family: "나눔명조";
-	z-index: 999;
+
 }
 #sub_menu{
 	position: absolute;
 	opacity: 0;
 	visibility: hidden;
-/* 	transition : .2s ease-in-out; */
-	left: 0;
+	transition : .2s ease-in-out;
 }
 #sub_menu > li {
-	padding: 20px 30px;
-	float: left;
-	text-align: left;
-	float: left;
-	width: 100vw;
+	padding: 12px 36px;
 }
 #sub_menu > li > a{
-	padding:5vw 5vh;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -93,10 +80,7 @@ html, body {
 	z-index: 999;
 	padding:10px;
 	border-radius: 4px;}
-	font-size:2.2vh;
-	font-family: "나눔명조";
-	z-index: 999;
-}
+
 #main_menu > li:hover #sub_menu{
 	opacity: 1;
 	visibility: visible;
@@ -106,22 +90,8 @@ html, body {
 
 #main_menu li ul a:hover{
 	 background-color:gray;
+}
 
-#menu:hover{
- background-color: rgb(256,256,256);
-}
-#menu:hover #main_menu > li > a{
- color: black;
- font-weight: 600;
-}
-#main_menu> li:hover #sub_menu > li > a{
- color: black;
- font-weight: 600;
-} 
-#main_menu> li:hover #sub_menu > li{
- background-color: rgb(256,256,256);
-}
-	
 #videohome {
      top: 0px;
      left: 0px;
@@ -152,10 +122,11 @@ html, body {
 	color: white;
 	text-decoration: none;
 	font-size:50px;
-	font-family: "나눔명조";
-	font-family: "�������";
 
 	font-family: "나눔명조";
+
+	font-family: "�������";
+
 }
 .a {
 	text-align: left;

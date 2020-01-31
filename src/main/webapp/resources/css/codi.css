@@ -68,8 +68,13 @@ body{background-color: black;}
 	margin-bottom:40px;
 }
 .login-div-button {
-   border:0;
+   
 }
 .login-button{
 	margin-left:90%;
+	background-color:black;
+	border:0;
+}
+path{
+	fill:#489CFF;
 }

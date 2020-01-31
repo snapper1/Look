@@ -12,12 +12,11 @@
 <script src="resources/js/full-page-scroll.js"></script>
 <script>
               new WOW().init();
-           
+          
 </script>
-
 </head>
 <body>	
-<div id="menu" >
+<div id="menu">
 		<ul id="main_menu" >
 			<li><a href="#">Week</a></li>
 			<li><a href="#">Theme</a></li>
