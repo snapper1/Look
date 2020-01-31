@@ -21,7 +21,7 @@
 		<ul id="main_menu" >
 			<li><a href="#">Week</a></li>
 			<li><a href="#">Theme</a></li>
-			<li><a href="#">What is Look.</a></li>
+			<li><a href="codi">What is Look.</a></li>
 			<li><a href="#">Account</a>
 				<ul id="sub_menu">
 					<li><a href="loginf">Login</a></li>

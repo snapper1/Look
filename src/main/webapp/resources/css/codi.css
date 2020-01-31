@@ -1,13 +1,13 @@
-body{background-color:black;color:white;}
-header{width:auto; height:auto;}
-section{width:100vw;height:auto;max-width:100%}
-footer{width:auto; height:auto;}
+header{width:100%; height:20%;position:relative;display: block;}
+section{width:100%;height:60%;position:relative;}
+footer{width:100%; height:20%;position:relative;}
 img{width:250px;height:250px;}
-div{ }
 a:link,a:visited,a:hover{color:white;text-decoration:none;}
-.body-div{margin:0;max-width:100%;position:relative;}
+body{background-color: black;}
 .section-main-div{
-	
+	padding:10%;
+	margin-top:10%;
+	background-color:black;
 	}
 .section-two-div{
 	display:inline-table;
@@ -16,14 +16,19 @@ a:link,a:visited,a:hover{color:white;text-decoration:none;}
     }
 .section-two-divTwo{
 	margin-left:50%;
-	width:200px;
-	position:absolute;
+	width:auto;
+	height:auto;
 }
-.section-tow-divTwo-div{
-	background-color:#8C8C8C;
+.section-two-divTwo-div:hover{background-color:#8C8C8C;}
+.section-two-divTwo-div{
+	background-color:#757575;
+	display:block;
 	width:200px;
 	text-align:center;
 	padding:9px;
+	cursor:pointer;
+	font-family:"나눔스퀘어라운드";
+	font-size:16px;
 	}
 .img{
 	display: block;
@@ -60,12 +65,11 @@ a:link,a:visited,a:hover{color:white;text-decoration:none;}
 	font-size:2vh;
 	font-family:"나눔스퀘어라운드";
 	color: gray;
-	margin-bottom:20px;
+	margin-bottom:40px;
 }
-#a-more{
-	font-family:lulo-clean-w01-one-bold,sans-serif;
-	font-size:16px;
-	
-	
-	
-	}
+.login-div-button {
+   border:0;
+}
+.login-button{
+	margin-left:90%;
+}
