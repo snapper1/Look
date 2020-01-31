@@ -36,7 +36,16 @@ html, body {
 	top: 50%;
 	left: 25%;
 	transform: translate( -50%, -50% );
-	background:white;
 	opacity: 0.85;
-	border-radius: 40px;
+	text-align: center;
+	z-index: 10;
+}
+.inputbox{
+	float:left;
+	border-radius: 5px;
+	width: 35vw;
+	height: 10vh;
+	padding: 1vh;
+	z-index: 50;
+	box-shadow: none;
 }

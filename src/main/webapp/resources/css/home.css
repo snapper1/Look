@@ -53,7 +53,8 @@ html, body {
 	color: white;
 	text-decoration: none;
 	font-size:3.5vh;
-	font-family: "³ª´®¸íÁ¶"
+	font-family: "³ª´®°íµñ";
+	z-index: 999;
 }
 #sub_menu{
 	position: absolute;
@@ -68,13 +69,19 @@ html, body {
 	text-align: center;
 	text-decoration: none;
 	font-size:3vh;
-	font-family: "³ª´®¸íÁ¶";
+	font-family: "³ª´®°íµñ";
+	z-index: 999;
+	background-color: rgba( 51, 51, 51, 0.7 );
+	padding:10px;
+	border-radius: 4px;
 }
 #main_menu > li:hover #sub_menu {
 	opacity: 1;
 	visibility: visible;
 }
-
+#main_menu li ul a:hover, #main_menu li ul li:hover a{
+	 background-color: black;
+}
 
 #videohome {
      top: 0px;
@@ -108,7 +115,7 @@ html, body {
 	color: white;
 	text-decoration: none;
 	font-size:50px;
-	font-family: "³ª´®¸íÁ¶";
+	font-family: "³ª´®°íµñ";
 }
 .a {
 	text-align: left;
