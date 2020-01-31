@@ -52,7 +52,12 @@ html, body {
 	color: white;
 	text-decoration: none;
 	font-size:3.5vh;
+<<<<<<< HEAD
 	font-family: "ë‚˜ëˆ”ëª…ì¡°"
+=======
+	font-family: "³ª´®°íµñ";
+	z-index: 999;
+>>>>>>> 0b5dafda0cb6619b7d58e8221102583fc76f1d03
 }
 #sub_menu{
 	position: absolute;
@@ -67,13 +72,23 @@ html, body {
 	text-align: center;
 	text-decoration: none;
 	font-size:3vh;
+<<<<<<< HEAD
 	font-family: "ë‚˜ëˆ”ëª…ì¡°";
+=======
+	font-family: "³ª´®°íµñ";
+	z-index: 999;
+	background-color: rgba( 51, 51, 51, 0.7 );
+	padding:10px;
+	border-radius: 4px;
+>>>>>>> 0b5dafda0cb6619b7d58e8221102583fc76f1d03
 }
 #main_menu > li:hover #sub_menu {
 	opacity: 1;
 	visibility: visible;
 }
-
+#main_menu li ul a:hover, #main_menu li ul li:hover a{
+	 background-color: black;
+}
 
 #videohome {
      top: 0px;
@@ -107,7 +122,11 @@ html, body {
 	color: white;
 	text-decoration: none;
 	font-size:50px;
+<<<<<<< HEAD
 	font-family: "ë‚˜ëˆ”ëª…ì¡°";
+=======
+	font-family: "³ª´®°íµñ";
+>>>>>>> 0b5dafda0cb6619b7d58e8221102583fc76f1d03
 }
 .a {
 	text-align: left;
