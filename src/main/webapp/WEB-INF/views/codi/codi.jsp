@@ -41,7 +41,9 @@
 			
 		<div class="section-two-divTwo"> <!-- Section 부분의 DIV-2 -->
 			<div class="section-tow-divTwo-div">
-				<a href="#">더보기</a>
+				
+				<a href="#" id="a-more">더보기</a>
+				
 			</div>
 		</div>
 		

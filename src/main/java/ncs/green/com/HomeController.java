@@ -54,4 +54,11 @@ public class HomeController {
 		mv.setViewName("home");
 		return mv;
 	} // home
+	
+	@RequestMapping(value = "/codiTest")
+	public ModelAndView codiTest(ModelAndView mv) {
+		mv.setViewName("codi/codiTest");
+		return mv;
+	} // codiTest
+	
 }
