@@ -38,6 +38,9 @@
         		</path>
     			</g>
 			</svg>
+			<div id="login-side-menu">
+				
+			</div>
 		</button>
 	</div>
 
