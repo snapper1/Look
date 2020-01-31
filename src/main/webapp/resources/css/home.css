@@ -30,12 +30,7 @@ html, body {
 	list-style-type: none;
 }
 #menu {
-<<<<<<< HEAD
 /* 	transition:.2s ease-in-out ; */
-=======
-	transition:.5s ease-in-out /*느렸다빨리짐*/;
-	transition:.5s ease-in-out /*느렸다빨리짐*/;
->>>>>>> 734579df37a604e005858a9a045f8c896b4083aa
 	position:fixed ;
 	top:0;
 	width:100%;
@@ -53,17 +48,7 @@ html, body {
 	padding: 3vh 3vw 2vh 3vw;
 	color: white;
 	text-decoration: none;
-<<<<<<< HEAD
 	font-size:3vh;
-=======
-	font-size:3.5vh;
-
-	font-family: "나눔명조"
-
-	font-family: "�������";
-	z-index: 999;
-	font-size:2.5vh;
->>>>>>> 734579df37a604e005858a9a045f8c896b4083aa
 	font-family: "나눔명조";
 	z-index: 999;
 }
@@ -86,13 +71,6 @@ html, body {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	font-size:3vh;
-
-	font-family: "나눔명조";
-	font-family: "�������";
-	z-index: 999;
-	padding:10px;
-	border-radius: 4px;}
 	font-size:2.2vh;
 	font-family: "나눔명조";
 	z-index: 999;
@@ -101,11 +79,6 @@ html, body {
 	opacity: 1;
 	visibility: visible;
 }
-
-#sub_menu_div{ }
-
-#main_menu li ul a:hover{
-	 background-color:gray;
 
 #menu:hover{
  background-color: rgb(256,256,256);
@@ -152,9 +125,6 @@ html, body {
 	color: white;
 	text-decoration: none;
 	font-size:50px;
-	font-family: "나눔명조";
-	font-family: "�������";
-
 	font-family: "나눔명조";
 }
 .a {
