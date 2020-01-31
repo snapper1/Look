@@ -115,6 +115,7 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
+<<<<<<< HEAD
 		</dependency>    
 		
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -125,13 +126,22 @@
 	</dependency>
 
 <!-- 최신버전  lombok --> 
+=======
+		</dependency>       
+		
+		<!-- 최신버전  lombok --> 
+>>>>>>> fb114d7293f80b98d6b7f5c6966a4ffe032be1de
 	<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
 		<version>1.18.2</version>
 		<scope>provided</scope>
 	</dependency>
+<<<<<<< HEAD
 		    
+=======
+		 
+>>>>>>> fb114d7293f80b98d6b7f5c6966a4ffe032be1de
 	</dependencies>
     <build>
         <plugins>
