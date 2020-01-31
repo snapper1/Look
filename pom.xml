@@ -125,13 +125,16 @@
 	</dependency>
 
 <!-- 최신버전  lombok --> 
+		</dependency>       
+		
+		<!-- 최신버전  lombok --> 
 	<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
 		<version>1.18.2</version>
 		<scope>provided</scope>
 	</dependency>
-		    
+	
 	</dependencies>
     <build>
         <plugins>
