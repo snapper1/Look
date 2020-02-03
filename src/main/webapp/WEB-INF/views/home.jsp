@@ -23,10 +23,10 @@
 			<li><a href="codi">What is Look.</a></li>
 			<li><a href="#">Account</a>
 				<ul id="sub_menu">
-					<li><a href="loginf">Login</a></li>
-					<li><a href="#">INFO</a></li>
-					<li><a href="#">Q & A</a></li>
-					<li><a href="home">Home</a></li>
+					<li><a href="loginf">Login</a>
+					<a href="#">INFO</a>
+					<a href="#">Q & A</a>
+					<a href="home">Home</a></li>
 				</ul>
 			</li>
 		</ul>
