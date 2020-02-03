@@ -124,8 +124,7 @@
 		<version>1.16.20</version>
 	</dependency>
 
-<!-- 최신버전  lombok --> 
-		</dependency>       
+    
 		
 		<!-- 최신버전  lombok --> 
 	<dependency>
