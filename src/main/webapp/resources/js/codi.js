@@ -1,10 +1,10 @@
 $(document).ready(function(){
-				$('.aa').hide();
+				$('.hide-codi').hide();
 				$('.section-two-divTwo-div').click(function() {
 					if($('.section-two-divTwo-div').hasClass('section-two-divTwo-div')){
-						$('.aa').show();
+						$('.hide-codi').show();
 						$('.section-two-divTwo-div').hide();
-					}else if($('.aa').show){
+					}else if($('.hide-codi').show){
 						$('.section-two-divTwo-div').hide();
 					}
 				});

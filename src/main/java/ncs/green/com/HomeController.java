@@ -54,10 +54,21 @@ public class HomeController {
 		return mv;
 	} // home
 	
-	@RequestMapping(value = "/codiTest")
-	public ModelAndView codiTest(ModelAndView mv) {
-		mv.setViewName("codi/codiTest");
+	@RequestMapping(value = "/test1")
+	public ModelAndView codiTest1(ModelAndView mv) {
+		mv.setViewName("codi/test1");
 		return mv;
 	} // codiTest
+	
+	@RequestMapping(value = "/test2")
+	public ModelAndView codiTest2(ModelAndView mv) {
+		mv.setViewName("codi/test2");
+		return mv;
+	}
+	@RequestMapping(value = "/test3")
+	public ModelAndView codiTest3(ModelAndView mv) {
+		mv.setViewName("codi/test3");
+		return mv;
+	}
 	
 }
